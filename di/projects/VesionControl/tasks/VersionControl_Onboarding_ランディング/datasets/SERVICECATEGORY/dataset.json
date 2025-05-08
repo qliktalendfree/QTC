@@ -1,0 +1,16 @@
+{
+  "id": "servicecategory",
+  "name": "SERVICECATEGORY",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$ONLINESERVICECALLS_servicecategory",
+      "name": "SERVICECATEGORY",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny",
+      "schema": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,43 @@
+{
+  "id": "$replicate$ONLINESERVICECALLS_servicecategory",
+  "name": "ONLINESERVICECALLS_SERVICECATEGORY",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "SERVICECATEGORY",
+    "dbSchema": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema}}",
+    "columns": [
+      {
+        "name": "SERVICECATEGORYID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "servicecategoryid",
+        "flags": "NONE"
+      },
+      {
+        "name": "SERVICECATEGORYNAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 250,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "servicecategoryname",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

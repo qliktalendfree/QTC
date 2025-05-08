@@ -1,0 +1,31 @@
+{
+  "sourceConnection": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "CONTACTTYPE",
+      "schema": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ONLINESERVICECALLS_contacttype"
+    },
+    {
+      "name": "SERVICECATEGORY",
+      "schema": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ONLINESERVICECALLS_servicecategory"
+    },
+    {
+      "name": "SERVICECONTACT",
+      "schema": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ONLINESERVICECALLS_servicecontact"
+    },
+    {
+      "name": "SERVICEREASON",
+      "schema": "{{task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$ONLINESERVICECALLS_servicereason"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "variables": {
+    "projectName": "",
+    "platformConnection": "",
+    "cloudStagingConnection": "",
+    "project.current.prefixSchema": "",
+    "task-type.landing.warehouseName": "",
+    "task-type.landing.warehouseSelectionMethod": "",
+    "task-type.landing.databaseName": "",
+    "task-type.landing.databaseSelectionMethod": "",
+    "task-type.registered.databaseName": "",
+    "task-type.registered.databaseSelectionMethod": "",
+    "task-type.storage.warehouseName": "",
+    "task-type.storage.warehouseSelectionMethod": "",
+    "task-type.storage.databaseName": "",
+    "task-type.storage.databaseSelectionMethod": "",
+    "task-type.transform.warehouseName": "",
+    "task-type.transform.warehouseSelectionMethod": "",
+    "task-type.transform.databaseName": "",
+    "task-type.transform.databaseSelectionMethod": "",
+    "task-type.datamart.warehouseName": "",
+    "task-type.datamart.warehouseSelectionMethod": "",
+    "task-type.datamart.databaseName": "",
+    "task-type.datamart.databaseSelectionMethod": "",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny.databaseName": "{{task-type.landing.databaseName}}",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny.taskSchema": "",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny.sourceConnection": "",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny:null$_$ONLINESERVICECALLS.schema": "",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jgrnjg4jjg6zjg7zjgrg-tynz.databaseName": "{{task-type.storage.databaseName}}",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jgrnjg4jjg6zjg7zjgrg-tynz.internalSchema": "",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jgrnjg4jjg6zjg7zjgrg-tynz.taskSchema": "",
+    "task.dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jgrnjg4jjg6zjg7zjgrg-tynz.warehouseName": "{{task-type.storage.warehouseName}}"
+  },
+  "idToNameMap": {
+    "dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA-tyny": "VersionControl_Onboarding_\u30E9\u30F3\u30C7\u30A3\u30F3\u30B0",
+    "dmVyc2lvbmNvbnRyb2xfb25ib2FyZGluZ1_jgrnjg4jjg6zjg7zjgrg-tynz": "VersionControl_Onboarding_\u30B9\u30C8\u30EC\u30FC\u30B8"
+  },
+  "connectionProperties": {
+    "{{id(connection, Default_Data_Space.Snowflake_Target)}}": {
+      "type": "reptgt_qdisnowflake"
+    },
+    "{{id(connection, Default_Data_Space.MySQL_cloud)}}": {
+      "type": "repsrc_mysql"
+    }
+  }
+}
