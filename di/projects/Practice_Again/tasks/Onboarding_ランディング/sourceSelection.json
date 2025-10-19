@@ -1,0 +1,61 @@
+{
+  "sourceConnection": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "categories",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_categories"
+    },
+    {
+      "name": "customer_alt_contact",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_customer_alt_contact"
+    },
+    {
+      "name": "customers",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_customers"
+    },
+    {
+      "name": "employees",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_employees"
+    },
+    {
+      "name": "order_details",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_order_details"
+    },
+    {
+      "name": "orders",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_orders"
+    },
+    {
+      "name": "products",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_products"
+    },
+    {
+      "name": "shippers",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_shippers"
+    },
+    {
+      "name": "suppliers",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$sales_suppliers"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "$registered_data$ONLINESERVICECALLS_servicecontact",
+  "name": "ONLINESERVICECALLS_SERVICECONTACT",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "SERVICECONTACT",
+    "dbSchema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+    "dbName": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}",
+    "columns": [
+      {
+        "name": "SERVICECONTACTID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "servicecontactid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CONTACTSTARTDATETIME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(0)"
+        },
+        "id": "contactstartdatetime",
+        "flags": "NONE"
+      },
+      {
+        "name": "CUSTOMERIDCHAR",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 250,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(250)"
+        },
+        "id": "customeridchar",
+        "flags": "NONE"
+      },
+      {
+        "name": "PRODUCTID",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "productid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CONTACTREASONID",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "contactreasonid",
+        "flags": "NONE"
+      },
+      {
+        "name": "INITIALCONTACTTYPEID",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "initialcontacttypeid",
+        "flags": "NONE"
+      },
+      {
+        "name": "FOLLOWUPCONTACTTYPEID",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "followupcontacttypeid",
+        "flags": "NONE"
+      },
+      {
+        "name": "EMPLOYEEID",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "employeeid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CALLSTATUSID",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "callstatusid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CUSTOMERIDINT",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "customeridint",
+        "flags": "NONE"
+      },
+      {
+        "name": "CONTACTENDDATETIME",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "DATETIME",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "TIMESTAMPNTZ",
+          "originalTypeFull": "TIMESTAMPNTZ(0)"
+        },
+        "id": "contactenddatetime",
+        "flags": "NONE"
+      },
+      {
+        "name": "SALESPRODUCTID",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "salesproductid",
+        "flags": "NONE"
+      },
+      {
+        "name": "CONTACTSEVERITY",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "contactseverity",
+        "flags": "NONE"
+      },
+      {
+        "name": "CUSTOMERSATISFACTION",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "customersatisfaction",
+        "flags": "NONE"
+      },
+      {
+        "name": "NETPROMOTERSCORE",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "netpromoterscore",
+        "flags": "NONE"
+      },
+      {
+        "name": "CUSTOMEREFFORTSCORE",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 38,
+          "scale": 0,
+          "originalType": "NUMBER",
+          "originalTypeFull": "NUMBER(38,0)"
+        },
+        "id": "customereffortscore",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

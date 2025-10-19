@@ -1,0 +1,44 @@
+{
+  "ordinal": 0,
+  "actionType": "REPLACE_COLUMN_VALUE",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "%",
+    "whereColumnName": "%",
+    "whereDatatype": "WSTRING",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "action": {
+    "renameType": "RENAME",
+    "expression": {
+      "expressionStatement": "COALESCE (${Q_D_COLUMN_DATA}, \u0027Unknown\u0027)",
+      "alias": [
+        {
+          "name": "Q_D_COLUMN_DATA",
+          "value": "$Q_D_COLUMN_DATA"
+        }
+      ]
+    },
+    "applyColumnDatatype": false,
+    "column": {
+      "ordinal": 0,
+      "nullable": true,
+      "primaryKeyOrdinal": 0,
+      "datatype": {
+        "type": "STRING",
+        "length": 50,
+        "precision": 0,
+        "scale": 0,
+        "originalTypeFull": ""
+      },
+      "flags": "NONE"
+    }
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "\u30EB\u30FC\u30EB",
+  "id": "44Or44O844Or-bxdx",
+  "description": ""
+}

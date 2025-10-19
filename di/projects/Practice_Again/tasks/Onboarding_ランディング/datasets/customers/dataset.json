@@ -1,0 +1,17 @@
+{
+  "id": "customers",
+  "name": "customers",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$replicate$sales_customers",
+      "name": "customers",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll",
+      "schema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

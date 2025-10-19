@@ -1,0 +1,24 @@
+{
+  "id": "products--2lw",
+  "name": "products",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "type": "NONE",
+      "datasetId": "products",
+      "name": "products",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

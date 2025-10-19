@@ -1,0 +1,34 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}",
+      "name": "CONTACTTYPE",
+      "schema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$ONLINESERVICECALLS_contacttype"
+    },
+    {
+      "database": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}",
+      "name": "SERVICECATEGORY",
+      "schema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$ONLINESERVICECALLS_servicecategory"
+    },
+    {
+      "database": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}",
+      "name": "SERVICECONTACT",
+      "schema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$ONLINESERVICECALLS_servicecontact"
+    },
+    {
+      "database": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}",
+      "name": "SERVICEREASON",
+      "schema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$ONLINESERVICECALLS_servicereason"
+    }
+  ]
+}

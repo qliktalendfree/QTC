@@ -1,0 +1,118 @@
+{
+  "id": "$replicate$sales_order_details",
+  "name": "sales_order_details",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "order_details",
+    "dbSchema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+    "columns": [
+      {
+        "name": "odID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "odid",
+        "flags": "NONE"
+      },
+      {
+        "name": "OrderID",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "orderid",
+        "flags": "NONE"
+      },
+      {
+        "name": "ProductID",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "productid",
+        "flags": "NONE"
+      },
+      {
+        "name": "UnitPrice",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 10,
+          "scale": 2,
+          "originalTypeFull": ""
+        },
+        "id": "unitprice",
+        "flags": "NONE"
+      },
+      {
+        "name": "Quantity",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "quantity",
+        "flags": "NONE"
+      },
+      {
+        "name": "Discount",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "NUMERIC",
+          "length": 0,
+          "precision": 10,
+          "scale": 2,
+          "originalTypeFull": ""
+        },
+        "id": "discount",
+        "flags": "NONE"
+      },
+      {
+        "name": "Category",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "category",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

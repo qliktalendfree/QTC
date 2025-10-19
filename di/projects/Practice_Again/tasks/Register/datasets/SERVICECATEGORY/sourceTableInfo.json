@@ -1,0 +1,46 @@
+{
+  "id": "$registered_data$ONLINESERVICECALLS_servicecategory",
+  "name": "ONLINESERVICECALLS_SERVICECATEGORY",
+  "type": "EXTERNAL_TABLE",
+  "tableDef": {
+    "name": "SERVICECATEGORY",
+    "dbSchema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+    "dbName": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}",
+    "columns": [
+      {
+        "name": "SERVICECATEGORYID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(50)"
+        },
+        "id": "servicecategoryid",
+        "flags": "NONE"
+      },
+      {
+        "name": "SERVICECATEGORYNAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 250,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(250)"
+        },
+        "id": "servicecategoryname",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

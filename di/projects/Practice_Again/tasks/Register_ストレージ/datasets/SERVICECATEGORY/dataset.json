@@ -1,0 +1,24 @@
+{
+  "id": "servicecategory-r9ev",
+  "name": "SERVICECATEGORY",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "type": "NONE",
+      "datasetId": "servicecategory",
+      "name": "SERVICECATEGORY",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "register-r9er"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

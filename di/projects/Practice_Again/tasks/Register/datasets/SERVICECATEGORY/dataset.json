@@ -1,0 +1,18 @@
+{
+  "id": "servicecategory",
+  "name": "SERVICECATEGORY",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$registered_data$ONLINESERVICECALLS_servicecategory",
+      "name": "SERVICECATEGORY",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "register-r9er",
+      "schema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+      "database": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

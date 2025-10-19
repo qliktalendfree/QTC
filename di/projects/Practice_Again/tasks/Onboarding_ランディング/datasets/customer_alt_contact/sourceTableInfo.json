@@ -1,0 +1,58 @@
+{
+  "id": "$replicate$sales_customer_alt_contact",
+  "name": "sales_customer_alt_contact",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "customer_alt_contact",
+    "dbSchema": "{{task.b25ib2FyZGluZ1_jg6njg7Pjg4fjgqPjg7PjgrA--2ll:null$_$sales.schema}}",
+    "columns": [
+      {
+        "name": "CustomerID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 5,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "customerid",
+        "flags": "NONE"
+      },
+      {
+        "name": "AlternateContactType",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 2,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "alternatecontacttype",
+        "flags": "NONE"
+      },
+      {
+        "name": "ContactValue",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "WSTRING",
+          "length": 100,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "contactvalue",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

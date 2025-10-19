@@ -1,0 +1,24 @@
+{
+  "id": "servicereason-r9ex",
+  "name": "SERVICEREASON",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "type": "NONE",
+      "datasetId": "servicereason",
+      "name": "SERVICEREASON",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "register-r9er"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

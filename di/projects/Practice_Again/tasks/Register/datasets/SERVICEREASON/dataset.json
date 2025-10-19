@@ -1,0 +1,18 @@
+{
+  "id": "servicereason",
+  "name": "SERVICEREASON",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "type": "TABLE",
+      "datasetId": "$registered_data$ONLINESERVICECALLS_servicereason",
+      "name": "SERVICEREASON",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "register-r9er",
+      "schema": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.schema}}",
+      "database": "{{task.register-r9er:QLIK_DI_DB$_$ONLINESERVICECALLS.database}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}
